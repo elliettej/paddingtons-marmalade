@@ -1,0 +1,242 @@
+/* general styling */
+
+body{
+	font-family:'Fjalla One', sans-serif;
+	margin:0;
+	color:#340A0B;
+	z-index:2;
+	background-image:url("images/bg3.jpg");
+	background-repeat: repeat;
+}
+
+a{
+	color:#340A0B;
+}
+
+h1{
+	font-size:60px;
+	text-transform: uppercase;
+	margin-bottom:-14px;
+	text-align:center;
+	letter-spacing:1px;
+	padding-top:50px;
+}
+
+h3{
+	position:absolute;
+	right:198px;
+	font-style: italic;
+	letter-spacing:2px;
+	z-index:1;
+}
+
+p{
+	font-family: 'Lato', sans-serif;
+}
+
+span{
+	text-transform:uppercase;
+	margin-left:5px;
+}
+
+/* HEADER section */
+
+#header{
+	position: fixed;
+	top: 0;
+	right:0;
+	color:#340A0B;
+	background-color: #FDEECF;
+	width: 100%;
+	height:50px;
+	border-bottom:3px solid white;
+	width: 100%;
+	height:50px;
+	border-bottom:3px solid white;
+	z-index:3;
+}
+
+#header ul{
+	list-style-type: none;
+	float:right;
+}
+
+#header ul li{
+	float: left;
+  	padding-left: 10px;
+	padding-bottom: 10px ;
+	margin-left: 10px;
+	border-left: 1px solid #fff;
+
+}
+#header ul li a{
+	text-decoration:none;
+	color:#340A0B;
+}
+
+#logo{
+  float: left;
+  margin-left:44px;
+  margin-top:2px;
+  width:138px;
+  height:auto;
+}
+
+#menu{
+	float:right;
+	margin-right:18px;
+
+}
+
+/* keeps fix nav bar from blocking text */
+
+.anchor{
+  display: block;
+  height: 50px; /*same height as header*/
+  margin-top: -50px; /*same height as header*/
+  visibility: hidden;
+}
+
+.section{
+margin-top:50px;}
+
+
+
+/* positions paddington image */
+
+#paddington img{
+	position:absolute;
+	right:153px;
+	top:76px;
+	height:93px;
+	width:auto;
+	z-index:2;
+}
+
+/* genral styling for sections */
+
+.txt{
+	color:#340A0B;
+ 	background-color: #FDEECF;
+ 	width:72%;
+ 	height:295px;
+ 	margin:0 auto;
+ 	padding-left:5px;
+ 	margin-top:8px;
+}
+
+
+.dbl-line{
+	border-bottom:1px solid white;
+	padding-top:5px;
+}
+
+
+.content-txt p {
+	text-align:right;
+	width:70%;
+	padding:0 5px 0 0;
+	margin-right:37px;
+
+}
+
+/* STORE section */
+
+img{
+	width:110px;
+	height:auto;
+}
+
+.gallery{
+	float:right;
+	width:70%;
+}
+
+.gallery-element{
+	float: left;
+  	margin: 10px 38px 0 0;
+  	padding:0; 	
+}
+
+.gallery-bookend{
+	margin-right:0;
+}
+
+
+/* clears float for img gallery */
+
+.clear{
+	clear:both;
+}
+
+.float-right{
+
+	float:right;
+	width:70%;
+	padding:0 5px 0 0;
+	margin-right:15px;
+
+}
+
+/* CONTACT section */
+
+.contact{
+	color:#340A0B;
+ 	background-color: #FDEECF;
+ 	width:72%;
+ 	height:150px;
+ 	margin:0 auto;
+}
+
+.space{
+	margin-left:15px;
+}
+.less{
+	margin-left:5px;
+}
+
+/* social media */
+
+i .fa{
+	margin-left:auto;
+	margin-right:auto;
+}
+
+/* FOOTER section */
+
+#footer{
+	height:40px;
+	background-color:#340A0B;
+	color:white;
+	font-size:10px;
+	text-align:right;
+	padding-right:19px;
+}
+
+
+/* RESPONSIVE DESIGN */
+
+
+@media screen and (max-width: 1100px){
+/*image gallery*/
+.gallery {
+    float: right;
+    width: 90% !important;
+}
+.float-right {
+    float: right;
+    width: 90% !important;
+    padding: 0 5px 0 0;
+    margin-right: 15px;
+}
+
+#paddington img{
+	display:none;
+}
+}
+
+
+
+
+
+
